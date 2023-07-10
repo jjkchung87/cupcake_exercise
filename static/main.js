@@ -4,10 +4,6 @@ const editCupcakeForm = $('cupcake-update-form')
 
 
 /* ***************************************************************************************** */
-//Retrieve list of cupcakes and d on page
-
-
-/* ***************************************************************************************** */
 //Retrieve list of cupcakes and put on page
 
 async function getcupcakeList(){
@@ -70,6 +66,8 @@ async function filterCupcakes(evt){
 
 /* ***************************************************************************************** */
 //Handle cupcake edit
+
+// THIS IS NOT ACTUALLY INTEGRATED IN THE APP
 
 $('#cupcake-update-form').on('submit',submitCupcakeUpdateForm)
 
